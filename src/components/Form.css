@@ -1,0 +1,23 @@
+.form {
+    margin: 10px;
+    padding: 10px;
+}
+
+.form input,
+.form button {
+    background-color: #b3e6e2;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    transition: .5s
+}
+
+.form button:hover {
+    background-color: rgb(142, 206, 226);
+    color: aliceblue;
+    transform: scale(1.1, 1.1);
+}
+
+.form input:focus {
+    transform: scale(1.1, 1.1);
+}

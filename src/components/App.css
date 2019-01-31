@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.App {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.App h1 {
+    margin: 10px auto;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    width: 70%;
+    transition: .2s;
+}
+
+body:hover .App h1 {
+    border-bottom: 0 solid black;
+}
